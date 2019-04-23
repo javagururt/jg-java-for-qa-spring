@@ -9,5 +9,6 @@ class UserInput {
         System.out.println("Please enter number: ");
         int userInputNumber = sc.nextInt();
         System.out.println("Result: " + userInputNumber);
+        
     }
 }
