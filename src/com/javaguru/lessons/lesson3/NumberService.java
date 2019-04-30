@@ -30,4 +30,18 @@ class NumberService {
         return result;
     }
 
+    public int sum(int firstNumber, int secondNumber) {
+        int result = firstNumber + secondNumber;
+        return result;
+    }
+
+    public int sumInRange(int from, int to) {
+        int sumResult = 0;
+        while (from <= to) {
+            sumResult = sumResult + from;
+            from++;
+        }
+        return sumResult;
+    }
+
 }
