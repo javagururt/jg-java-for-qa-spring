@@ -17,5 +17,16 @@ public class ArrayService {
         }
     }
 
+    public int findMaxValue(int[] array) {
+        int max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < array.length; i++) {
+            if (max < array[i]) {
+                max = array[i];
+            }
+        }
+
+        return max;
+    }
 
 }
